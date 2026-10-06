@@ -1,0 +1,2 @@
+[C00_probe] params=773,001 args={'exp': 'C00_probe', 'seeds': '42', 'folds': '0', 'epochs': 30, 'bs': 16, 'lr': 0.002, 'wd': 0.01, 'width': 24, 'crop': 192, 'feats': '', 'loss': 'mse', 'threads': 2}
+  seed 42 fold 0: RMSE 14.6860 (noTTA 14.5381) 579s

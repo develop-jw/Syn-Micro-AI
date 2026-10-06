@@ -1,0 +1,7 @@
+[T01_r18] {'exp': 'T01_r18', 'arch': 'resnet18', 'weights': '../weights/r18.pth', 'seeds': '42', 'folds': '0', 'epochs': 12, 'bs': 16, 'lr': 0.0005, 'crop': 224, 'tta': 4, 'threads': 2}
+ load: <All keys matched successfully>
+   ep 3: train_loss 0.714 val RMSE 16.247 (35s/ep)
+   ep 6: train_loss 0.587 val RMSE 16.075 (36s/ep)
+   ep 9: train_loss 0.546 val RMSE 14.948 (35s/ep)
+   ep 12: train_loss 0.503 val RMSE 15.099 (34s/ep)
+  seed 42 fold 0: RMSE 15.0992 550s

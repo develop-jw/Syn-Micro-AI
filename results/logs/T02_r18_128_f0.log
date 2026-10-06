@@ -1,0 +1,17 @@
+[T02_r18_128] {'exp': 'T02_r18_128', 'arch': 'resnet18', 'weights': '../weights/r18.pth', 'seeds': '42', 'folds': '0', 'epochs': 40, 'bs': 16, 'lr': 0.0005, 'crop': 112, 'tta': 4, 'threads': 2, 'size': 128}
+ load: <All keys matched successfully>
+   ep 3: train_loss 0.894 val RMSE 16.761 (9s/ep)
+   ep 6: train_loss 0.732 val RMSE 15.325 (9s/ep)
+   ep 9: train_loss 0.651 val RMSE 16.110 (9s/ep)
+   ep 12: train_loss 0.581 val RMSE 15.323 (9s/ep)
+   ep 15: train_loss 0.584 val RMSE 14.527 (9s/ep)
+   ep 18: train_loss 0.511 val RMSE 15.100 (9s/ep)
+   ep 21: train_loss 0.509 val RMSE 15.324 (9s/ep)
+   ep 24: train_loss 0.484 val RMSE 15.268 (9s/ep)
+   ep 27: train_loss 0.430 val RMSE 15.065 (9s/ep)
+   ep 30: train_loss 0.446 val RMSE 14.584 (9s/ep)
+   ep 33: train_loss 0.424 val RMSE 14.903 (8s/ep)
+   ep 36: train_loss 0.423 val RMSE 14.736 (9s/ep)
+   ep 39: train_loss 0.413 val RMSE 14.571 (9s/ep)
+   ep 40: train_loss 0.418 val RMSE 14.719 (8s/ep)
+  seed 42 fold 0: RMSE 14.7186 324s

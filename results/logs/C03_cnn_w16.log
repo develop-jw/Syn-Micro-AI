@@ -1,0 +1,8 @@
+[C03_cnn_w16] params=351,793 args={'exp': 'C03_cnn_w16', 'seeds': '42', 'folds': 'all', 'epochs': 30, 'bs': 16, 'lr': 0.002, 'wd': 0.01, 'width': 16, 'crop': 192, 'feats': '', 'loss': 'mse', 'threads': 2}
+  seed 42 fold 0: RMSE 13.8059 (noTTA 13.8527) 326s
+  seed 42 fold 1: RMSE 12.4954 (noTTA 12.6404) 323s
+  seed 42 fold 2: RMSE 15.7303 (noTTA 15.4952) 282s
+  seed 42 fold 3: RMSE 14.1371 (noTTA 14.0184) 285s
+  seed 42 fold 4: RMSE 13.1045 (noTTA 13.1902) 293s
+  seed 42: OOF RMSE 13.8980 (noTTA 13.8728)
+[C03_cnn_w16] mean OOF RMSE 13.8980

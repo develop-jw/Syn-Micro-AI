@@ -1,0 +1,23 @@
+{
+ "args": {
+  "exp": "C03_cnn_w16",
+  "seeds": "42",
+  "folds": "all",
+  "epochs": 30,
+  "bs": 16,
+  "lr": 0.002,
+  "wd": 0.01,
+  "width": 16,
+  "crop": 192,
+  "feats": "",
+  "loss": "mse",
+  "threads": 2
+ },
+ "scores": [
+  13.897969717267493
+ ],
+ "scores_notta": [
+  13.872842168603754
+ ],
+ "mean": 13.897969717267493
+}

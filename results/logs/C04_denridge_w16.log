@@ -1,0 +1,8 @@
+[C04_denridge_w16] params=351,937 args={'exp': 'C04_denridge_w16', 'seeds': '42', 'folds': 'all', 'epochs': 30, 'bs': 16, 'lr': 0.002, 'wd': 0.01, 'width': 16, 'crop': 192, 'feats': '', 'loss': 'mse', 'threads': 2, 'input': 'denridge'}
+  seed 42 fold 0: RMSE 14.1562 (noTTA 14.3482) 317s
+  seed 42 fold 1: RMSE 13.5509 (noTTA 13.8432) 330s
+  seed 42 fold 2: RMSE 15.5358 (noTTA 15.5445) 300s
+  seed 42 fold 3: RMSE 14.2447 (noTTA 14.4156) 290s
+  seed 42 fold 4: RMSE 12.6943 (noTTA 12.7225) 295s
+  seed 42: OOF RMSE 14.0673 (noTTA 14.2043)
+[C04_denridge_w16] mean OOF RMSE 14.0673

@@ -1,0 +1,24 @@
+{
+ "args": {
+  "exp": "C04_denridge_w16",
+  "seeds": "42",
+  "folds": "all",
+  "epochs": 30,
+  "bs": 16,
+  "lr": 0.002,
+  "wd": 0.01,
+  "width": 16,
+  "crop": 192,
+  "feats": "",
+  "loss": "mse",
+  "threads": 2,
+  "input": "denridge"
+ },
+ "scores": [
+  14.067309606116162
+ ],
+ "scores_notta": [
+  14.204263411584348
+ ],
+ "mean": 14.067309606116162
+}
